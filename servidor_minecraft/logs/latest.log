@@ -1,0 +1,668 @@
+[16:16:14] [main/INFO]: Loading Minecraft 1.16.5 with Fabric Loader 0.18.2
+[16:16:15] [main/INFO]: Loading 46 mods:
+	- diggusmaximus 1.4.2-1.16.3
+	   \-- kyrptconfig 1.1.4-1.16
+	        |-- blue_endless_jankson 1.2.0
+	        \-- cloth-config2 4.8.2
+	             \-- cloth-basic-math 0.5.1
+	- fabric 0.42.0+1.16
+	   |-- fabric-api-base 0.4.0+3cc0f0907d
+	   |-- fabric-api-lookup-api-v1 1.3.1+3cc0f0907d
+	   |-- fabric-biome-api-v1 3.1.13+3cc0f0907d
+	   |-- fabric-blockrenderlayer-v1 1.1.6+3cc0f0907d
+	   |-- fabric-command-api-v1 1.1.3+3cc0f0907d
+	   |-- fabric-commands-v0 0.2.3+3cc0f0907d
+	   |-- fabric-containers-v0 0.1.12+3cc0f0907d
+	   |-- fabric-content-registries-v0 0.2.5+3cc0f0907d
+	   |-- fabric-crash-report-info-v1 0.1.4+3cc0f0907d
+	   |-- fabric-dimensions-v1 2.0.8+3cc0f0907d
+	   |-- fabric-entity-events-v1 1.2.4+3cc0f0907d
+	   |-- fabric-events-interaction-v0 0.4.5+3cc0f0907d
+	   |-- fabric-events-lifecycle-v0 0.2.2+3cc0f0907d
+	   |-- fabric-game-rule-api-v1 1.0.7+3cc0f0907d
+	   |-- fabric-item-api-v1 1.2.2+3cc0f0907d
+	   |-- fabric-item-groups-v0 0.3.1+3cc0f0907d
+	   |-- fabric-key-binding-api-v1 1.0.5+3cc0f0907d
+	   |-- fabric-keybindings-v0 0.2.2+3cc0f0907d
+	   |-- fabric-lifecycle-events-v1 1.2.2+3cc0f0907d
+	   |-- fabric-loot-tables-v1 1.0.3+3cc0f0907d
+	   |-- fabric-mining-levels-v0 0.1.4+3cc0f0907d
+	   |-- fabric-models-v0 0.3.1+3cc0f0907d
+	   |-- fabric-networking-api-v1 1.0.5+3cc0f0907d
+	   |-- fabric-networking-blockentity-v0 0.2.9+3cc0f0907d
+	   |-- fabric-networking-v0 0.3.3+3cc0f0907d
+	   |-- fabric-object-builder-api-v1 1.9.6+3cc0f0907d
+	   |-- fabric-object-builders-v0 0.7.3+3cc0f0907d
+	   |-- fabric-particles-v1 0.2.5+3cc0f0907d
+	   |-- fabric-registry-sync-v0 0.7.6+3cc0f0907d
+	   |-- fabric-renderer-api-v1 0.4.5+3cc0f0907d
+	   |-- fabric-renderer-indigo 0.4.5+3cc0f0907d
+	   |-- fabric-renderer-registries-v1 2.3.1+3cc0f0907d
+	   |-- fabric-rendering-data-attachment-v1 0.1.6+3cc0f0907d
+	   |-- fabric-rendering-fluids-v1 0.1.15+3cc0f0907d
+	   |-- fabric-rendering-v0 1.1.3+3cc0f0907d
+	   |-- fabric-rendering-v1 1.6.1+3cc0f0907d
+	   |-- fabric-resource-loader-v0 0.4.8+3cc0f0907d
+	   |-- fabric-screen-api-v1 1.0.1+3cc0f0907d
+	   |-- fabric-screen-handler-api-v1 1.1.6+3cc0f0907d
+	   |-- fabric-structure-api-v1 1.1.12+3cc0f0907d
+	   |-- fabric-tag-extensions-v0 1.1.2+3cc0f0907d
+	   |-- fabric-textures-v0 1.0.7+3cc0f0907d
+	   |-- fabric-tool-attribute-api-v1 1.2.8+3cc0f0907d
+	   \-- fabric-transfer-api-v1 1.5.0+3cc0f0907d
+	- fabricloader 0.18.2
+	   \-- mixinextras 0.5.0
+	- ferritecore 2.1.1
+	- java 11
+	- krypton 0.1.2
+	- lithium 0.6.6
+	- minecraft 1.16.5
+[16:16:15] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/Repositorio-de-lionell/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[16:16:15] [main/INFO]: Loaded configuration file for Lithium: 80 options available, 1 override(s) found
+[16:16:15] [main/WARN]: Force-disabling mixin 'world.player_chunk_tick.ThreadedAnvilChunkStorageMixin' as rule 'mixin.world.player_chunk_tick' (added by mods [krypton]) disables it and children
+[16:16:15] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[16:16:16] [main/INFO]: Using Java 9+ class definer
+[16:16:19] [main/INFO]: Compression will use libdeflate (Linux x86_64), encryption will use OpenSSL 1.1.x (Linux x86_64)
+[16:16:19] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
+[16:16:20] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[16:16:20] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[16:16:20] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[16:16:20] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[16:16:20] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[16:16:20] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[16:16:20] [main/INFO]: Reloading ResourceManager: Default, Fabric Mods (Fabric Tool Attribute API (v1))
+[16:16:21] [Worker-Main-5/INFO]: Loaded 7 recipes
+[16:16:21] [Worker-Main-5/INFO]: Loaded 927 advancements
+[16:16:23] [main/INFO]: Applied 0 biome modifications to 0 of 79 new biomes in 1.875 ms
+[16:16:24] [Server thread/INFO]: Starting minecraft server version 1.16.5
+[16:16:24] [Server thread/INFO]: Loading properties
+[16:16:24] [Server thread/INFO]: Default game type: SURVIVAL
+[16:16:24] [Server thread/INFO]: Generating keypair
+[16:16:24] [Server thread/INFO]: Starting Minecraft server on *:25565
+[16:16:24] [Server thread/INFO]: Using epoll channel type
+[16:16:24] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[16:16:24] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[16:16:24] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[16:16:24] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[16:16:24] [Server thread/INFO]: Preparing level "world"
+[16:16:25] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[16:16:27] [Server thread/INFO]: Preparing spawn area: 0%
+[16:16:27] [Server thread/INFO]: Preparing spawn area: 0%
+[16:16:27] [Server thread/INFO]: Preparing spawn area: 0%
+[16:16:27] [Server thread/INFO]: Preparing spawn area: 0%
+[16:16:27] [Server thread/INFO]: Preparing spawn area: 0%
+[16:16:27] [Server thread/INFO]: Preparing spawn area: 44%
+[16:16:27] [Server thread/INFO]: Time elapsed: 2785 ms
+[16:16:27] [Server thread/INFO]: Done (3.227s)! For help, type "help"
+[16:16:43] [Server thread/INFO]: Ethan12[/10.214.214.143:49811] logged in with entity id 51 at (-1771.4908955961937, 102.5625, 339.934736924534)
+[16:16:43] [Server thread/INFO]: Ethan12 joined the game
+[16:24:25] [Server thread/INFO]: edison235678[/10.214.214.34:51490] logged in with entity id 1445 at (-1762.8336971952622, 88.0, 328.45264314938856)
+[16:24:25] [Server thread/INFO]: edison235678 joined the game
+[16:25:22] [Server thread/INFO]: <Ethan12> ando picando mija
+[16:26:20] [Server thread/INFO]: <edison235678> mrdoso
+[16:26:26] [Server thread/INFO]: <Ethan12> espera
+[16:26:37] [Server thread/INFO]: <Ethan12> ya me uno a la llamada dame un rattito
+[16:26:54] [Server thread/INFO]: edison235678 lost connection: Disconnected
+[16:26:54] [Server thread/INFO]: edison235678 left the game
+[16:47:23] [Server thread/INFO]: <Ethan12> g
+[16:56:42] [Server thread/INFO]: [Ethan12: Set own game mode to Creative Mode]
+[16:57:58] [Server thread/INFO]: M4TEOCM[/10.214.214.206:55284] logged in with entity id 5599 at (-1824.383727444186, 66.0, 258.4724300240723)
+[16:57:58] [Server thread/INFO]: M4TEOCM joined the game
+[16:58:07] [Server thread/INFO]: <M4TEOCM> teton
+[16:58:12] [Server thread/INFO]: <Ethan12> k
+[16:58:18] [Server thread/INFO]: <M4TEOCM> kbravo
+[16:58:40] [Server thread/INFO]: <M4TEOCM> tienes diamantes???
+[16:58:51] [Server thread/INFO]: <Ethan12> si
+[16:58:57] [Server thread/INFO]: <Ethan12> pero ya vengo mija
+[16:58:59] [Server thread/INFO]: <M4TEOCM> tienes 3 q me regales
+[16:59:03] [Server thread/INFO]: <M4TEOCM> yayay
+[16:59:05] [Server thread/INFO]: <Ethan12> uente en 10 min
+[17:00:41] [Server thread/INFO]: <Ethan12> salte
+[17:00:59] [Server thread/INFO]: <M4TEOCM> porque??
+[17:01:14] [Server thread/INFO]: <Ethan12> es q quiero dejar algo en tu cofre
+[17:01:18] [Server thread/INFO]: <Ethan12> dame 2
+[17:01:23] [Server thread/INFO]: <Ethan12> y hay te unes
+[17:01:38] [Server thread/INFO]: <M4TEOCM> no estoy en la house
+[17:01:43] [Server thread/INFO]: <Ethan12> mueve o no te dejo ni mrd
+[17:01:51] [Server thread/INFO]: <Ethan12> salte del server vrg
+[17:01:55] [Server thread/INFO]: <M4TEOCM> vrgante estoy tradeandp
+[17:02:03] [Server thread/INFO]: <Ethan12> xd
+[17:02:16] [Server thread/INFO]: [Ethan12: Set own game mode to Survival Mode]
+[17:02:31] [Server thread/INFO]: <Ethan12> oe se me esta lagiando
+[17:03:10] [Server thread/INFO]: [M4TEOCM: Teleported M4TEOCM to Ethan12]
+[17:03:33] [Server thread/INFO]: <M4TEOCM> espera
+[17:03:34] [Server thread/INFO]: <Ethan12> vrg
+[17:04:01] [Server thread/INFO]: <M4TEOCM> gvamos al nether
+[17:04:28] [Server thread/INFO]: <Ethan12> yay
+[17:05:03] [Server thread/INFO]: [Ethan12: Teleported Ethan12 to M4TEOCM]
+[17:05:08] [Server thread/INFO]: <M4TEOCM> duerme
+[17:05:22] [Server thread/INFO]: <Ethan12> vamos
+[17:05:33] [Server thread/INFO]: <M4TEOCM> dame 5 voy al baño xdd
+[17:05:37] [Server thread/INFO]: <Ethan12> xdd
+[17:08:51] [Server thread/INFO]: <Ethan12> k fue te fuiste a cagr
+[17:09:46] [Server thread/INFO]: <Ethan12> d
+[17:09:56] [Server thread/INFO]: [Ethan12: Teleported Ethan12 to Ethan12]
+[17:10:04] [Server thread/INFO]: [Ethan12: Teleported Ethan12 to M4TEOCM]
+[17:12:15] [Server thread/INFO]: <M4TEOCM> BRAVO VAEL TU GRAja ??
+[17:12:32] [Server thread/INFO]: <Ethan12> pero esta de darle trigoa las vacas
+[17:12:41] [Server thread/INFO]: <Ethan12> yo tengo comida ya voy
+[17:13:45] [Server thread/INFO]: <Ethan12> mateo date trallendo 3 diamantes de mi cofreee
+[17:13:45] [Server thread/INFO]: <M4TEOCM> llevamos una caldera con agua??
+[17:13:54] [Server thread/INFO]: <Ethan12> no
+[17:14:28] [Server thread/INFO]: [Ethan12: Teleported Ethan12 to M4TEOCM]
+[17:15:09] [Server thread/INFO]: <Ethan12> q hace la eficiencia ve
+[17:15:21] [Server thread/INFO]: <M4TEOCM> deja veo dam,e 5 segundos
+[17:15:43] [Server thread/INFO]: <M4TEOCM> rompes lboques mas rapido
+[17:15:54] [Server thread/INFO]: <Ethan12> teno eficiencia 5
+[17:16:46] [Server thread/INFO]: <Ethan12> mira
+[17:17:03] [Server thread/INFO]: <Ethan12> pasa
+[17:17:39] [Server thread/INFO]: <M4TEOCM> tienes libros encatandos o sin encantamientos
+[17:17:41] [Server thread/INFO]: <M4TEOCM> ??
+[17:17:50] [Server thread/INFO]: <Ethan12> no se me acabaron
+[17:18:05] [Server thread/INFO]: <Ethan12> tienes
+[17:18:08] [Server thread/INFO]: <Ethan12> oro
+[17:18:11] [Server thread/INFO]: <M4TEOCM> no
+[17:18:34] [Server thread/INFO]: [Ethan12: Teleported Ethan12 to M4TEOCM]
+[17:18:41] [Server thread/INFO]: <M4TEOCM> tieens cuero
+[17:18:52] [Server thread/INFO]: <Ethan12> en la granja avia 10
+[17:19:23] [Server thread/INFO]: <Ethan12> tienes algo de oro o si no par hacerter
+[17:19:32] [Server thread/INFO]: <M4TEOCM> si creo ya veo
+[17:20:32] [Server thread/INFO]: <M4TEOCM> tengo 1 de oro
+[17:20:34] [Server thread/INFO]: <M4TEOCM> xd
+[17:20:42] [Server thread/INFO]: <Ethan12> ya te ago
+[17:21:13] [Server thread/INFO]: Ethan12 has made the advancement [Ice Bucket Challenge]
+[17:21:33] [Server thread/INFO]: [Ethan12: Teleported Ethan12 to M4TEOCM]
+[17:21:58] [Server thread/INFO]: <Ethan12> llevaras un barco
+[17:22:08] [Server thread/INFO]: <M4TEOCM> duerme
+[17:22:24] [Server thread/INFO]: <M4TEOCM> oko para que ve el varcop=??
+[17:22:37] [Server thread/INFO]: <Ethan12> para las perlas
+[17:22:51] [Server thread/INFO]: <Ethan12> y toca buscar fortalesa
+[17:24:06] [Server thread/INFO]: <Ethan12> date gemas
+[17:24:12] [Server thread/INFO]: <M4TEOCM> cuantas
+[17:24:16] [Server thread/INFO]: <Ethan12> 6
+[17:25:44] [Server thread/INFO]: <M4TEOCM> vamos??
+[17:25:52] [Server thread/INFO]: <Ethan12> yaya
+[17:26:42] [Server thread/INFO]: <Ethan12> espera miniatura
+[17:26:46] [Server thread/INFO]: <M4TEOCM> jajaja
+[17:27:04] [Server thread/INFO]: <Ethan12> listo
+[17:29:02] [Server thread/INFO]: <M4TEOCM> jaja
+[17:30:06] [Server thread/INFO]: <Ethan12> uff
+[17:30:09] [Server thread/INFO]: <Ethan12> td
+[17:30:11] [Server thread/INFO]: <M4TEOCM> deja ver
+[17:30:27] [Server thread/INFO]: <Ethan12> cuerpo inifugo
+[17:30:42] [Server thread/INFO]: M4TEOCM has made the advancement [Who is Cutting Onions?]
+[17:30:49] [Server thread/INFO]: <M4TEOCM> hdp
+[17:30:56] [Server thread/INFO]: <Ethan12> q te dio
+[17:30:59] [Server thread/INFO]: <M4TEOCM> nada
+[17:31:03] [Server thread/INFO]: <Ethan12> jajajaj
+[17:31:13] [Server thread/INFO]: <M4TEOCM> vamos a por perlas
+[17:31:19] [Server thread/INFO]: <Ethan12> ya tengo
+[17:31:31] [Server thread/INFO]: <M4TEOCM> cuantas
+[17:31:35] [Server thread/INFO]: <Ethan12> 18
+[17:31:48] [Server thread/INFO]: <M4TEOCM> vamos a por las varas de blease
+[17:31:52] [Server thread/INFO]: <Ethan12> yaya
+[17:32:41] [Server thread/INFO]: <M4TEOCM> te quiere dar unos sentones el slaime
+[17:32:46] [Server thread/INFO]: <Ethan12> jaja
+[17:33:35] [Server thread/INFO]: Ethan12 has made the advancement [A Terrible Fortress]
+[17:33:43] [Server thread/INFO]: <M4TEOCM> vrg no hagas eso
+[17:34:02] [Server thread/INFO]: <Ethan12> ven
+[17:34:34] [Server thread/INFO]: <M4TEOCM> xd
+[17:34:54] [Server thread/INFO]: <M4TEOCM> salta ala lava para qcojas la vara ve
+[17:35:21] [Server thread/INFO]: M4TEOCM has made the advancement [Spooky Scary Skeleton]
+[17:36:01] [Server thread/INFO]: <M4TEOCM> mira bravo
+[17:37:29] [Server thread/INFO]: <M4TEOCM> vien
+[17:38:22] [Server thread/INFO]: Ethan12 has made the advancement [Into Fire]
+[17:38:34] [Server thread/INFO]: <Ethan12> cauntas tienes
+[17:38:37] [Server thread/INFO]: <M4TEOCM> dame las q tengas
+[17:38:42] [Server thread/INFO]: <Ethan12> ya
+[17:39:23] [Server thread/INFO]: <Ethan12> coge
+[17:39:39] [Server thread/INFO]: <Ethan12> d
+[17:40:38] [Server thread/INFO]: <M4TEOCM> quita eso
+[17:40:45] [Server thread/INFO]: <Ethan12> ya
+[17:40:54] [Server thread/INFO]: <M4TEOCM> tengo 9
+[17:41:32] [Server thread/INFO]: <Ethan12> tienes escudo
+[17:41:37] [Server thread/INFO]: <M4TEOCM> no
+[17:41:39] [Server thread/INFO]: <Ethan12> me lo rompieron
+[17:41:40] [Server thread/INFO]: <M4TEOCM> solo apmo
+[17:42:59] [Server thread/INFO]: <Ethan12> ya
+[17:43:27] [Server thread/INFO]: <M4TEOCM> vamosnos
+[17:45:25] [Server thread/INFO]: <M4TEOCM> ya ve trae las perlas
+[17:45:30] [Server thread/INFO]: <Ethan12> voy
+[17:45:33] [Server thread/INFO]: <M4TEOCM> para ur abuscar la fortaleza
+[17:46:44] [Server thread/INFO]: [Ethan12: Teleported Ethan12 to M4TEOCM]
+[17:47:00] [Server thread/INFO]: <Ethan12> pasa la potion
+[17:47:04] [Server thread/INFO]: <Ethan12> r
+[17:47:11] [Server thread/INFO]: <M4TEOCM> te la tiro o te paaso
+[17:47:15] [Server thread/INFO]: <Ethan12> pasa
+[17:47:44] [Server thread/INFO]: <M4TEOCM> 21 ojos tenemos
+[17:48:27] [Server thread/INFO]: <M4TEOCM> pa alla
+[17:50:03] [Server thread/INFO]: <M4TEOCM> qu es esto ve
+[17:50:07] [Server thread/INFO]: <Ethan12> nose
+[17:50:20] [Server thread/INFO]: <Ethan12> creo q la iso el camacho ayer de noche
+[17:52:38] [Server thread/INFO]: [Ethan12: Teleported Ethan12 to M4TEOCM]
+[17:54:10] [Server thread/INFO]: [Ethan12: Teleported Ethan12 to M4TEOCM]
+[17:57:06] [Server thread/INFO]: <M4TEOCM> un bañño s o q
+[17:57:15] [Server thread/INFO]: <M4TEOCM> entra
+[17:58:49] [Server thread/INFO]: [Ethan12: Teleported Ethan12 to M4TEOCM]
+[17:59:49] [Server thread/INFO]: [Ethan12: Teleported Ethan12 to M4TEOCM]
+[18:00:34] [Server thread/INFO]: <Ethan12> ven
+[18:01:01] [Server thread/INFO]: [M4TEOCM: Teleported M4TEOCM to Ethan12]
+[18:01:06] [Server thread/INFO]: <M4TEOCM> adobde vamos
+[18:01:14] [Server thread/INFO]: <Ethan12> es por aca
+[18:01:39] [Server thread/INFO]: <M4TEOCM> lanza
+[18:01:40] [Server thread/INFO]: <Ethan12> lanza
+[18:01:44] [Server thread/INFO]: <M4TEOCM> xd
+[18:01:46] [Server thread/INFO]: <Ethan12> se rompio
+[18:02:29] [Server thread/INFO]: <Ethan12> oeee
+[18:02:32] [Server thread/INFO]: <Ethan12> es aca
+[18:02:46] [Server thread/INFO]: <Ethan12> mentira
+[18:03:33] [Server thread/INFO]: [Ethan12: Teleported Ethan12 to M4TEOCM]
+[18:04:00] [Server thread/INFO]: <M4TEOCM> se te rompio la armadura jaajaj
+[18:05:48] [Server thread/INFO]: <M4TEOCM> esporaquicreo
+[18:08:06] [Server thread/INFO]: <Ethan12> y7a no
+[18:08:14] [Server thread/INFO]: Ethan12 has made the advancement [Eye Spy]
+[18:08:15] [Server thread/INFO]: M4TEOCM has made the advancement [Eye Spy]
+[18:08:24] [Server thread/INFO]: <M4TEOCM> ven
+[18:08:46] [Server thread/INFO]: <Ethan12> daeme
+[18:08:50] [Server thread/INFO]: <Ethan12> comida
+[18:09:06] [Server thread/INFO]: <Ethan12> dame comida
+[18:14:57] [Server thread/INFO]: Ethan12 lost connection: Disconnected
+[18:14:57] [Server thread/INFO]: Ethan12 left the game
+[18:28:09] [Server thread/INFO]: Ethan12[/10.214.214.143:51693] logged in with entity id 25179 at (-1344.712752568247, 30.0, 1821.699999988079)
+[18:28:09] [Server thread/INFO]: Ethan12 joined the game
+[18:28:18] [Server thread/INFO]: <M4TEOCM> oye ve esto esta de lavrg
+[18:28:31] [Server thread/INFO]: <Ethan12> q paso
+[18:28:41] [Server thread/INFO]: <M4TEOCM> no encuentro
+[18:29:00] [Server thread/INFO]: <M4TEOCM> no tengocomida y haces eso ve
+[18:29:20] [Server thread/INFO]: [M4TEOCM: Teleported M4TEOCM to Ethan12]
+[18:29:43] [Server thread/INFO]: <M4TEOCM> ya busquepor ahi y por todo lado
+[18:31:52] [Server thread/INFO]: [M4TEOCM: Teleported M4TEOCM to Ethan12]
+[18:35:30] [Server thread/INFO]: <M4TEOCM> encontraste algo
+[18:35:34] [Server thread/INFO]: <Ethan12> nop
+[18:35:37] [Server thread/INFO]: <M4TEOCM> encontre una mina abandoanda
+[18:36:35] [Server thread/INFO]: [Ethan12: Set own game mode to Spectator Mode]
+[18:36:45] [Server thread/INFO]: <M4TEOCM> hdp dejha de hacer trampa mmmvrg
+[18:36:56] [Server thread/INFO]: <Ethan12> xd
+[18:37:09] [Server thread/INFO]: <Ethan12> pensaba q no iva a valer jajajajja
+[18:38:22] [Server thread/INFO]: [Ethan12: Set own game mode to Survival Mode]
+[18:38:26] [Server thread/INFO]: <Ethan12> no hay nada
+[18:38:31] [Server thread/INFO]: [M4TEOCM: Teleported M4TEOCM to Ethan12]
+[18:38:35] [Server thread/INFO]: <Ethan12> creo q esta semilla vale vrg
+[18:38:41] [Server thread/INFO]: <M4TEOCM> busca bien
+[18:38:50] [Server thread/INFO]: <M4TEOCM> esque esta en partes esta mrd
+[18:38:51] [Server thread/INFO]: <Ethan12> mira
+[18:39:03] [Server thread/INFO]: <M4TEOCM> bravooooooooooooooooooooooooooooo
+[18:39:08] [Server thread/INFO]: <Ethan12> aca no hay nada
+[18:39:13] [Server thread/INFO]: <Ethan12> q mrd
+[18:39:31] [Server thread/INFO]: <M4TEOCM> si solo deje la ultima
+[18:39:51] [Server thread/INFO]: <Ethan12> miniatura
+[18:40:16] [Server thread/INFO]: <Ethan12> liso
+[18:40:33] [Server thread/INFO]: <M4TEOCM> vamonoso
+[18:40:41] [Server thread/INFO]: <Ethan12> yaya
+[18:40:53] [Server thread/INFO]: <M4TEOCM> no me peges ve
+[18:40:56] [Server thread/INFO]: <M4TEOCM> no tengo vida
+[18:41:41] [Server thread/INFO]: <Ethan12> ya vengo voy a comprar de unaaa
+[18:41:47] [Server thread/INFO]: <M4TEOCM> yayayayayayayayayay
+[18:41:51] [Server thread/INFO]: <Ethan12> llegaras a las casa
+[18:41:53] [Server thread/INFO]: Ethan12 lost connection: Disconnected
+[18:41:53] [Server thread/INFO]: Ethan12 left the game
+[18:48:21] [Server thread/INFO]: Ethan12[/10.214.214.143:51942] logged in with entity id 27770 at (-1317.423193958739, 33.5, 1845.1469426373021)
+[18:48:21] [Server thread/INFO]: Ethan12 joined the game
+[18:49:45] [Server thread/INFO]: [Ethan12: Teleported Ethan12 to M4TEOCM]
+[18:49:56] [Server thread/INFO]: <M4TEOCM> erspera
+[18:50:04] [Server thread/INFO]: <M4TEOCM> ve me voy tpear ala casa
+[18:50:37] [Server thread/INFO]: <M4TEOCM> oe no mepges
+[18:50:42] [Server thread/INFO]: <M4TEOCM> no tengo vida
+[18:50:50] [Server thread/INFO]: <Ethan12> tepeate rapido
+[18:52:34] [Server thread/INFO]: <Ethan12> mueve mamavrg
+[18:52:49] [Server thread/INFO]: [M4TEOCM: Teleported M4TEOCM to -1748.903, 73.0, 310.685]
+[18:53:02] [Server thread/INFO]: <Ethan12> q si era
+[18:53:09] [Server thread/INFO]: <M4TEOCM> ??
+[18:53:30] [Server thread/INFO]: Ethan12 lost connection: Disconnected
+[18:53:30] [Server thread/INFO]: Ethan12 left the game
+[19:00:38] [Server thread/INFO]: Ethan12[/10.214.214.143:52046] logged in with entity id 29416 at (-1309.300000011921, 34.0, 1872.300000011921)
+[19:00:38] [Server thread/INFO]: Ethan12 joined the game
+[19:00:48] [Server thread/INFO]: [Ethan12: Teleported Ethan12 to M4TEOCM]
+[19:00:52] [Server thread/INFO]: <M4TEOCM> TETAN SE UNIO ALA PARTIDA
+[19:01:29] [Server thread/INFO]: <M4TEOCM> Yahora que ve
+[19:02:02] [Server thread/INFO]: <Ethan12> invoca al wither
+[19:02:10] [Server thread/INFO]: <Ethan12> agamos el bicon
+[19:02:18] [Server thread/INFO]: <M4TEOCM> que es el bicon??
+[19:02:49] [Server thread/INFO]: <Ethan12> q
+[19:02:55] [Server thread/INFO]: <Ethan12> dises el bicon pues
+[19:03:14] [Server thread/INFO]: <Ethan12> tiens las cavezas de os esquletos negros
+[19:03:21] [Server thread/INFO]: <M4TEOCM> solo una
+[19:03:31] [Server thread/INFO]: <Ethan12> vamos a conseguir dos
+[19:03:39] [Server thread/INFO]: <M4TEOCM> anda yo voy remodelar mi casa
+[19:03:50] [Server thread/INFO]: <Ethan12> me voy a moriri
+[19:07:52] [Server thread/INFO]: [Ethan12: Teleported Ethan12 to M4TEOCM]
+[19:08:00] [Server thread/INFO]: <M4TEOCM> salw
+[19:08:08] [Server thread/INFO]: <M4TEOCM> yave
+[19:10:47] [Server thread/INFO]: Villager class_1646['Cleric'/28251, l='ServerLevel[world]', x=-1834.48, y=64.00, z=192.01] died, message: 'Cleric was slain by Zombie'
+[19:13:12] [Server thread/INFO]: <M4TEOCM> duerme
+[19:13:19] [Server thread/INFO]: <Ethan12> ando ejn el nether
+[19:20:29] [Server thread/INFO]: [Ethan12: Teleported Ethan12 to M4TEOCM]
+[19:20:42] [Server thread/INFO]: <Ethan12> q vrg
+[19:20:53] [Server thread/INFO]: <M4TEOCM> anda abuscar las cabezas
+[19:20:56] [Server thread/INFO]: <Ethan12> mate un monton puro carbon me dieron
+[19:21:07] [Server thread/INFO]: <M4TEOCM> ya para cocinar
+[19:21:32] [Server thread/INFO]: <M4TEOCM> no jdoas
+[19:21:38] [Server thread/INFO]: <M4TEOCM> no tengo vida ve
+[19:21:57] [Server thread/INFO]: M4TEOCM was slain by Ethan12
+[19:22:02] [Server thread/INFO]: <M4TEOCM> parcees tonto
+[19:22:07] [Server thread/INFO]: <Ethan12> ajajajjjjajajajajajjaaj
+[19:22:12] [Server thread/INFO]: <Ethan12> ya vuelvo
+[19:22:15] [Server thread/INFO]: Ethan12 lost connection: Disconnected
+[19:22:15] [Server thread/INFO]: Ethan12 left the game
+[19:24:01] [Server thread/INFO]: Ethan12[/10.214.214.143:52421] logged in with entity id 35026 at (-1820.336475426036, 65.0, 273.3038946084132)
+[19:24:01] [Server thread/INFO]: Ethan12 joined the game
+[19:25:51] [Server thread/INFO]: <M4TEOCM> duerme
+[19:25:57] [Server thread/INFO]: <Ethan12> yaya
+[19:25:58] [Server thread/INFO]: <Ethan12> ça
+[19:26:00] [Server thread/INFO]: <Ethan12> gey
+[19:27:35] [Server thread/INFO]: Ethan12 lost connection: Disconnected
+[19:27:35] [Server thread/INFO]: Ethan12 left the game
+[19:33:20] [Server thread/INFO]: DERIK[/10.214.214.231:53588] logged in with entity id 36224 at (-1764.395598512796, 122.0, 609.6881022852887)
+[19:33:20] [Server thread/INFO]: DERIK joined the game
+[19:35:00] [Server thread/INFO]: DERIK fell from a high place
+[19:35:06] [Server thread/INFO]: <M4TEOCM> jajaaja
+[19:35:29] [Server thread/INFO]: <DERIK> putamadre mario te voy a culiar
+[19:35:48] [Server thread/INFO]: <M4TEOCM> :V
+[19:51:16] [Server thread/INFO]: edison235678[/10.214.214.34:58471] logged in with entity id 40167 at (-1786.300000011921, 78.0, 309.05998372080364)
+[19:51:16] [Server thread/INFO]: edison235678 joined the game
+[19:57:58] [Server thread/INFO]: [edison235678: Teleported edison235678 to M4TEOCM]
+[19:59:15] [Server thread/INFO]: Ethan12[/10.214.214.143:52518] logged in with entity id 42090 at (-1767.894234648874, 102.0, 336.6028037858107)
+[19:59:15] [Server thread/INFO]: Ethan12 joined the game
+[20:00:13] [Server thread/INFO]: [Ethan12: Teleported Ethan12 to DERIK]
+[20:00:34] [Server thread/INFO]: [Ethan12: Teleported Ethan12 to edison235678]
+[20:00:51] [Server thread/INFO]: [Ethan12: Teleported Ethan12 to M4TEOCM]
+[20:01:56] [Server thread/INFO]: <edison235678> oso tienes cristal
+[20:02:11] [Server thread/INFO]: <Ethan12> no solo tengo 5
+[20:02:18] [Server thread/INFO]: <edison235678> oso de mrda
+[20:04:01] [Server thread/INFO]: <edison235678> CRISTAL
+[20:04:03] [Server thread/INFO]: <edison235678> ARENA
+[20:04:28] [Server thread/INFO]: <Ethan12> ya te consigo cuantos st6aks
+[20:05:23] [Server thread/INFO]: [edison235678: Teleported edison235678 to DERIK]
+[20:05:24] [Server thread/INFO]: <Ethan12> q vrg
+[20:05:37] [Server thread/INFO]: <Ethan12> falta cristalv mrd
+[20:06:02] [Server thread/INFO]: <edison235678> ocupo osito
+[20:09:09] [Server thread/INFO]: <edison235678> oso de mrda
+[20:09:32] [Server thread/INFO]: <Ethan12> mamavrg mew rompiste el cristal
+[20:09:45] [Server thread/INFO]: <edison235678> esque aca ocp'o para la granja
+[20:12:09] [Server thread/INFO]: [Ethan12: Teleported Ethan12 to edison235678]
+[20:12:59] [Server thread/INFO]: [Ethan12: Teleported Ethan12 to M4TEOCM]
+[20:13:24] [Server thread/INFO]: [Ethan12: Teleported Ethan12 to DERIK]
+[20:14:04] [Server thread/INFO]: [Ethan12: Teleported Ethan12 to edison235678]
+[20:15:01] [Server thread/INFO]: [Ethan12: Teleported Ethan12 to M4TEOCM]
+[20:18:35] [Server thread/INFO]: [Ethan12: Teleported Ethan12 to M4TEOCM]
+[20:24:38] [Server thread/INFO]: [edison235678: Teleported edison235678 to Ethan12]
+[20:26:20] [Server thread/INFO]: [edison235678: Teleported edison235678 to DERIK]
+[20:27:35] [Server thread/INFO]: [edison235678: Teleported edison235678 to M4TEOCM]
+[20:28:56] [Server thread/INFO]: <edison235678> yaaaaaa
+[20:30:27] [Server thread/INFO]: edison235678 fell from a high place
+[20:30:35] [Server thread/INFO]: <edison235678> oso de mrda
+[20:30:47] [Server thread/INFO]: <Ethan12> tu jodes hjputa
+[20:33:01] [Server thread/INFO]: [edison235678: Teleported edison235678 to Ethan12]
+[20:33:17] [Server thread/INFO]: [M4TEOCM: Teleported M4TEOCM to edison235678]
+[20:33:36] [Server thread/INFO]: <M4TEOCM> jaja no pense q teniaspoca vida jaja
+[20:33:55] [Server thread/INFO]: edison235678 was shot by Ethan12
+[20:35:31] [Server thread/INFO]: <edison235678> mario
+[20:35:34] [Server thread/INFO]: <M4TEOCM> ladra
+[20:35:36] [Server thread/INFO]: <edison235678> dame baras de blase
+[20:35:39] [Server thread/INFO]: <edison235678> tienes
+[20:35:46] [Server thread/INFO]: <M4TEOCM> las hice fuego
+[20:35:50] [Server thread/INFO]: <edison235678> 'psa pas
+[20:36:47] [Server thread/INFO]: [edison235678: Teleported edison235678 to DERIK]
+[20:37:05] [Server thread/INFO]: <M4TEOCM> donde estas ve
+[20:37:56] [Server thread/WARN]: M4TEOCM was kicked for floating too long!
+[20:37:56] [Server thread/INFO]: M4TEOCM lost connection: Flying is not enabled on this server
+[20:37:56] [Server thread/INFO]: M4TEOCM left the game
+[20:38:03] [Server thread/INFO]: M4TEOCM[/10.214.214.206:52892] logged in with entity id 54090 at (-1731.000270371167, 64.8500000178814, 503.1781663422753)
+[20:38:03] [Server thread/INFO]: M4TEOCM joined the game
+[20:38:28] [Server thread/INFO]: M4TEOCM lost connection: Disconnected
+[20:38:28] [Server thread/INFO]: M4TEOCM left the game
+[20:38:34] [Server thread/INFO]: M4TEOCM[/10.214.214.206:52897] logged in with entity id 54216 at (-1731.000270371167, 64.8500000178814, 503.1781663422753)
+[20:38:34] [Server thread/INFO]: M4TEOCM joined the game
+[20:38:48] [Server thread/INFO]: <edison235678> tos
+[20:38:50] [Server thread/INFO]: <edison235678> oso duerme
+[20:38:52] [Server thread/INFO]: Villager class_1646['Toolsmith'/28211, l='ServerLevel[world]', x=-1808.48, y=65.00, z=258.57] died, message: 'Toolsmith was slain by Zombie'
+[20:38:53] [Server thread/INFO]: <edison235678> veeee
+[20:38:55] [Server thread/INFO]: <edison235678> hpta
+[20:38:56] [Server thread/INFO]: Villager class_1646['Librarian'/28210, l='ServerLevel[world]', x=-1810.70, y=65.56, z=260.70] died, message: 'Librarian was slain by Zombie Villager'
+[20:38:58] [Server thread/INFO]: <edison235678> DERIK
+[20:39:03] [Server thread/INFO]: <edison235678> M4TEOCM
+[20:39:05] [Server thread/INFO]: <edison235678> SUERME
+[20:39:06] [Server thread/INFO]: <edison235678> DUERME
+[20:39:15] [Server thread/INFO]: <M4TEOCM> no haty acama
+[20:39:17] [Server thread/INFO]: <edison235678> OSOO
+[20:39:19] [Server thread/INFO]: <edison235678> DUERME
+[20:39:20] [Server thread/INFO]: <edison235678> HPTA
+[20:39:22] [Server thread/INFO]: <edison235678> DE MRDA
+[20:39:29] [Server thread/INFO]: <M4TEOCM> q es esa mrd de estructurave
+[20:39:35] [Server thread/INFO]: <Ethan12> jjk
+[20:39:44] [Server thread/INFO]: <Ethan12> duermna
+[20:39:55] [Server thread/INFO]: <Ethan12> duerman chucha
+[20:40:09] [Server thread/INFO]: <M4TEOCM> oe no puedo abrir nada
+[20:40:15] [Server thread/INFO]: <edison235678> plena
+[20:40:16] [Server thread/INFO]: <M4TEOCM> no puedo interactuar con nada
+[20:40:16] [Server thread/INFO]: <edison235678> salte
+[20:40:20] [Server thread/INFO]: <edison235678> salte
+[20:40:22] [Server thread/INFO]: M4TEOCM lost connection: Disconnected
+[20:40:22] [Server thread/INFO]: M4TEOCM left the game
+[20:40:30] [Server thread/INFO]: <edison235678> duerme
+[20:40:32] [Server thread/INFO]: M4TEOCM[/10.214.214.206:52954] logged in with entity id 54722 at (-1731.000270371167, 64.8500000178814, 503.1781663422753)
+[20:40:32] [Server thread/INFO]: M4TEOCM joined the game
+[20:40:32] [Server thread/INFO]: <edison235678> oso
+[20:40:34] [Server thread/INFO]: <edison235678> de mrda
+[20:40:35] [Server thread/INFO]: <edison235678> duerme
+[20:40:45] [Server thread/INFO]: edison235678 fell from a high place
+[20:41:04] [Server thread/INFO]: M4TEOCM was blown up by Creeper
+[20:41:10] [Server thread/INFO]: <M4TEOCM> duerman mrdsoososos
+[20:41:26] [Server thread/INFO]: <Ethan12> duerman
+[20:41:31] [Server thread/INFO]: <M4TEOCM> duerman
+[20:41:44] [Server thread/INFO]: [edison235678: Teleported edison235678 to Ethan12]
+[20:42:10] [Server thread/INFO]: <Ethan12> yaaaa
+[20:42:15] [Server thread/INFO]: <Ethan12> duerman
+[20:42:22] [Server thread/INFO]: M4TEOCM was slain by Zombie
+[20:42:23] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=-1725, y=66, z=345}
+[20:42:26] [Server thread/INFO]: <DERIK> siiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii chucha
+[20:42:31] [Server thread/INFO]: <edison235678> ya
+[20:42:32] [Server thread/INFO]: <edison235678> duerma
+[20:44:03] [Server thread/INFO]: [M4TEOCM: Teleported M4TEOCM to Ethan12]
+[20:44:19] [Server thread/INFO]: [M4TEOCM: Teleported M4TEOCM to edison235678]
+[20:44:21] [Server thread/INFO]: DERIK fell from a high place
+[20:44:53] [Server thread/INFO]: <edison235678> tienen manzanas
+[20:44:58] [Server thread/INFO]: [edison235678: Teleported edison235678 to Ethan12]
+[20:45:00] [Server thread/INFO]: M4TEOCM has made the advancement [Ice Bucket Challenge]
+[20:45:04] [Server thread/INFO]: <edison235678> manzana
+[20:45:06] [Server thread/INFO]: <edison235678> ?
+[20:45:10] [Server thread/INFO]: <M4TEOCM> yo tengo creo
+[20:45:11] [Server thread/INFO]: <Ethan12> no
+[20:45:14] [Server thread/INFO]: <edison235678> uya
+[20:47:19] [Server thread/INFO]: <edison235678> cogi la manzana
+[20:47:22] [Server thread/INFO]: <M4TEOCM> ok
+[20:47:39] [Server thread/INFO]: <M4TEOCM> alguien tiene diamantes??
+[20:47:43] [Server thread/INFO]: <edison235678> no papi
+[20:47:58] [Server thread/INFO]: <Ethan12> yo pero acambio
+[20:48:44] [Server thread/WARN]: Horse (vehicle of M4TEOCM) moved wrongly! 0.38056015106894847
+[20:48:44] [Server thread/WARN]: Horse (vehicle of M4TEOCM) moved wrongly! 0.32524846595697454
+[20:48:44] [Server thread/WARN]: Horse (vehicle of M4TEOCM) moved wrongly! 0.32559049499502635
+[20:48:45] [Server thread/WARN]: Horse (vehicle of M4TEOCM) moved wrongly! 0.3784918129788366
+[20:48:46] [Server thread/WARN]: Horse (vehicle of M4TEOCM) moved wrongly! 0.8125
+[20:48:54] [Server thread/INFO]: <M4TEOCM> pasa
+[20:49:01] [Server thread/WARN]: Horse (vehicle of Ethan12) moved wrongly! 0.34834351257967455
+[20:49:01] [Server thread/WARN]: Horse (vehicle of Ethan12) moved wrongly! 0.7908712371845468
+[20:49:01] [Server thread/WARN]: Horse (vehicle of Ethan12) moved wrongly! 1.224712107048049
+[20:49:02] [Server thread/WARN]: Horse (vehicle of Ethan12) moved wrongly! 0.3119876889018087
+[20:49:02] [Server thread/WARN]: Horse (vehicle of Ethan12) moved wrongly! 0.25653714158829644
+[20:49:02] [Server thread/WARN]: Horse (vehicle of Ethan12) moved wrongly! 0.6216550709757485
+[20:49:02] [Server thread/WARN]: Horse (vehicle of Ethan12) moved wrongly! 0.9115062630453394
+[20:49:04] [Server thread/WARN]: Horse (vehicle of Ethan12) moved wrongly! 0.38688177862849216
+[20:49:04] [Server thread/WARN]: Horse (vehicle of Ethan12) moved wrongly! 0.8306752736791054
+[20:49:04] [Server thread/WARN]: Horse (vehicle of Ethan12) moved wrongly! 0.274866828891561
+[20:49:05] [Server thread/WARN]: Horse (vehicle of Ethan12) moved wrongly! 0.38393157632077646
+[20:49:05] [Server thread/WARN]: Horse (vehicle of Ethan12) moved wrongly! 0.32802140475808983
+[20:49:05] [Server thread/WARN]: Horse (vehicle of Ethan12) moved wrongly! 0.33019208936843825
+[20:49:05] [Server thread/WARN]: Horse (vehicle of Ethan12) moved wrongly! 0.2751011916638504
+[20:49:05] [Server thread/WARN]: Horse (vehicle of Ethan12) moved wrongly! 0.27495487918645267
+[20:49:07] [Server thread/WARN]: Horse (vehicle of Ethan12) moved wrongly! 0.30589427131417324
+[20:49:55] [Server thread/INFO]: <Ethan12> cuanto agarraste
+[20:51:06] [Server thread/INFO]: <M4TEOCM> todo y me gaste el hierro
+[20:51:13] [Server thread/INFO]: <edison235678> matalo
+[20:51:19] [Server thread/INFO]: <Ethan12> mamavrg
+[20:51:31] [Server thread/INFO]: <M4TEOCM> que comen los caballo??
+[20:51:36] [Server thread/INFO]: <edison235678> semen
+[20:51:37] [Server thread/INFO]: <Ethan12> mr
+[20:51:41] [Server thread/INFO]: <Ethan12> mrd
+[20:51:45] [Server thread/INFO]: <Ethan12> jajajajajja
+[20:58:50] [Server thread/INFO]: DERIK fell from a high place
+[21:03:16] [Server thread/INFO]: <M4TEOCM> 5 dolares
+[21:03:46] [Server thread/INFO]: DERIK fell from a high place
+[21:04:54] [Server thread/INFO]: DERIK fell from a high place
+[21:06:01] [Server thread/WARN]: Fetching packet for removed entity class_1542['String'/63478, l='ServerLevel[world]', x=-1832.53, y=57.05, z=212.66]
+[21:06:12] [Server thread/INFO]: <edison235678> QUE
+[21:06:14] [Server thread/INFO]: <M4TEOCM> so
+[21:06:25] [Server thread/INFO]: DERIK fell from a high place
+[21:06:47] [Server thread/WARN]: Horse (vehicle of Ethan12) moved wrongly! 0.2615489295662883
+[21:06:47] [Server thread/WARN]: Horse (vehicle of Ethan12) moved wrongly! 0.7588752196611495
+[21:06:49] [Server thread/WARN]: Horse (vehicle of Ethan12) moved wrongly! 0.26774317900583355
+[21:06:49] [Server thread/WARN]: Horse (vehicle of Ethan12) moved wrongly! 0.6934386381350919
+[21:06:59] [Server thread/WARN]: Fetching packet for removed entity class_1542['String'/64376, l='ServerLevel[world]', x=-1829.08, y=57.02, z=212.95]
+[21:07:47] [Server thread/INFO]: [M4TEOCM: Teleported M4TEOCM to Ethan12]
+[21:08:07] [Server thread/INFO]: Ethan12 was shot by M4TEOCM
+[21:08:21] [Server thread/WARN]: Fetching packet for removed entity class_1542['String'/65365, l='ServerLevel[world]', x=-1828.91, y=57.02, z=212.98]
+[21:08:36] [Server thread/INFO]: <Ethan12> k paso
+[21:08:49] [Server thread/INFO]: <M4TEOCM> mi caballo???
+[21:08:53] [Server thread/INFO]: Ethan12 suffocated in a wall
+[21:09:16] [Server thread/INFO]: Ethan12 was slain by M4TEOCM
+[21:09:57] [Server thread/INFO]: [DERIK: Teleported DERIK to Ethan12]
+[21:10:09] [Server thread/WARN]: Fetching packet for removed entity class_1542['String'/66706, l='ServerLevel[world]', x=-1831.32, y=57.02, z=213.07]
+[21:11:11] [Server thread/INFO]: <M4TEOCM> bravo vamos por oroy diamante
+[21:11:18] [Server thread/INFO]: <Ethan12> vamos
+[21:12:56] [Server thread/WARN]: Fetching packet for removed entity class_1542['String'/68602, l='ServerLevel[world]', x=-1828.91, y=57.03, z=213.07]
+[21:13:47] [Server thread/INFO]: <M4TEOCM> pasa ve
+[21:14:17] [Server thread/INFO]: <M4TEOCM> pon un aldeano q de comida ve
+[21:14:17] [Server thread/INFO]: <Ethan12> al neter mateo
+[21:15:36] [Server thread/INFO]: <M4TEOCM> largate ve
+[21:15:52] [Server thread/INFO]: <M4TEOCM> largat oe
+[21:16:03] [Server thread/INFO]: <M4TEOCM> mematas ve animal
+[21:16:08] [Server thread/INFO]: DERIK was slain by Zombie
+[21:16:33] [Server thread/INFO]: [DERIK: Teleported DERIK to edison235678]
+[21:16:33] [Server thread/WARN]: Fetching packet for removed entity class_1542['String'/71211, l='ServerLevel[world]', x=-1830.12, y=57.01, z=212.99]
+[21:16:37] [Server thread/INFO]: [Ethan12: Teleported Ethan12 to M4TEOCM]
+[21:16:47] [Server thread/INFO]: [Ethan12: Teleported Ethan12 to edison235678]
+[21:16:49] [Server thread/INFO]: edison235678 was slain by Ethan12
+[21:17:16] [Server thread/INFO]: <M4TEOCM> expulsale ese vrg
+[21:17:17] [Server thread/INFO]: DERIK has made the advancement [Diamonds!]
+[21:17:22] [Server thread/WARN]: Horse (vehicle of M4TEOCM) moved wrongly! 0.29180241928531814
+[21:17:22] [Server thread/WARN]: Horse (vehicle of M4TEOCM) moved wrongly! 0.5863507878239034
+[21:18:56] [Server thread/INFO]: [M4TEOCM: Teleported M4TEOCM to Ethan12]
+[21:19:07] [Server thread/INFO]: <M4TEOCM> vrg se me quedo el caballo
+[21:19:17] [Server thread/WARN]: Fetching packet for removed entity class_1542['String'/74144, l='ServerLevel[world]', x=-1827.13, y=57.04, z=213.05]
+[21:19:17] [Server thread/WARN]: Fetching packet for removed entity class_1542['String'/74146, l='ServerLevel[world]', x=-1827.84, y=57.03, z=212.06]
+[21:19:40] [Server thread/WARN]: Fetching packet for removed entity class_1542['String'/74419, l='ServerLevel[world]', x=-1832.88, y=57.03, z=212.31]
+[21:20:29] [Server thread/INFO]: <edison235678> bien
+[21:22:48] [Server thread/INFO]: <M4TEOCM> HAZ un aldeano q de diamantes ve
+[21:22:54] [Server thread/INFO]: <edison235678> chca
+[21:23:16] [Server thread/INFO]: [Ethan12: Teleported Ethan12 to edison235678]
+[21:23:43] [Server thread/INFO]: [Ethan12: Teleported Ethan12 to DERIK]
+[21:23:44] [Server thread/INFO]: [M4TEOCM: Teleported M4TEOCM to edison235678]
+[21:23:56] [Server thread/INFO]: <edison235678> nooooo
+[21:24:03] [Server thread/INFO]: [Ethan12: Teleported Ethan12 to M4TEOCM]
+[21:24:16] [Server thread/INFO]: <M4TEOCM> no q
+[21:24:41] [Server thread/INFO]: [Ethan12: Teleported Ethan12 to DERIK]
+[21:26:50] [Server thread/INFO]: <M4TEOCM> como se activa ve bravo
+[21:28:54] [Server thread/INFO]: [Ethan12: Teleported Ethan12 to M4TEOCM]
+[21:29:03] [Server thread/INFO]: <M4TEOCM> tieens comida
+[21:29:08] [Server thread/INFO]: <Ethan12> si
+[21:30:36] [Server thread/INFO]: [Ethan12: Teleported Ethan12 to M4TEOCM]
+[21:31:16] [Server thread/INFO]: <M4TEOCM> mejor nada
+[21:35:00] [Server thread/INFO]: [M4TEOCM: Teleported M4TEOCM to -1303.311, 20.0, 1802.27]
+[21:36:52] [Server thread/INFO]: <M4TEOCM> no estoy en la casa
+[21:39:50] [Server thread/WARN]: Fetching packet for removed entity class_1542['String'/88920, l='ServerLevel[world]', x=-1828.01, y=57.02, z=211.53]
+[21:41:20] [Server thread/INFO]: [M4TEOCM: Teleported M4TEOCM to DERIK]
+[21:41:42] [Server thread/INFO]: <M4TEOCM> esqeu vengo de un mina
+[21:42:01] [Server thread/INFO]: <M4TEOCM> que quiren les traigfo de una
+[21:42:08] [Server thread/INFO]: <edison235678> una novia
+[21:42:15] [Server thread/WARN]: Fetching packet for removed entity class_1542['String'/90740, l='ServerLevel[world]', x=-1828.11, y=57.02, z=211.18]
+[21:42:20] [Server thread/INFO]: <M4TEOCM> ya mañana te llgea
+[21:44:06] [Server thread/INFO]: <edison235678> mario
+[21:44:08] [Server thread/INFO]: <edison235678> dame pan
+[21:44:11] [Server thread/INFO]: <edison235678> o zanahoria
+[21:45:05] [Server thread/INFO]: <edison235678> mario
+[21:45:07] [Server thread/INFO]: <M4TEOCM> diemlo
+[21:45:10] [Server thread/INFO]: <edison235678> mata el golem
+[21:45:17] [Server thread/INFO]: <M4TEOCM> ese que sta aqui
+[21:48:58] [Server thread/INFO]: Ethan12 lost connection: Disconnected
+[21:48:58] [Server thread/INFO]: Ethan12 left the game
+[21:52:34] [Server thread/INFO]: <edison235678> MARIO Q HACES
+[21:52:43] [Server thread/INFO]: <M4TEOCM> arrglando algo
+[21:53:05] [Server thread/INFO]: [edison235678: Teleported edison235678 to DERIK]
+[21:54:11] [Server thread/INFO]: <M4TEOCM> okok
+[21:55:45] [Server thread/INFO]: Villager class_1646['Villager'/28252, l='ServerLevel[world]', x=-1803.21, y=63.90, z=185.74] died, message: 'Villager was slain by Zombie'
+[21:56:42] [Server thread/INFO]: [M4TEOCM: Teleported M4TEOCM to DERIK]
+[21:56:42] [Server thread/WARN]: Fetching packet for removed entity class_1303['Experience Orb'/101536, l='ServerLevel[world]', x=-1839.52, y=57.16, z=210.40]
+[21:57:02] [Server thread/INFO]: <M4TEOCM> deja cocino la carne
+[21:58:22] [Server thread/INFO]: <M4TEOCM> hagan un aldeano q de comida pues
+[21:58:39] [Server thread/INFO]: <edison235678> NO hay comida para reproducirlos
+[22:01:26] [Server thread/INFO]: <M4TEOCM> oe coge la comida vrg
+[22:02:04] [Server thread/INFO]: <M4TEOCM> oe q malagradecido hdp
+[22:02:42] [Server thread/INFO]: <M4TEOCM> o emi pc mrdfos
+[22:02:46] [Server thread/INFO]: <edison235678> jkaja
+[22:03:51] [Server thread/INFO]: Ethan12[/10.214.214.143:54249] logged in with entity id 104828 at (-1772.6835913921645, 80.0, 311.8613195428452)
+[22:03:51] [Server thread/INFO]: Ethan12 joined the game
+[22:04:00] [Server thread/INFO]: [M4TEOCM: Teleported M4TEOCM to Ethan12]
+[22:04:11] [Server thread/INFO]: <M4TEOCM> vamo a buscar diamentes y otras cosas ve
+[22:04:26] [Server thread/INFO]: <M4TEOCM> noi
+[22:07:11] [Server thread/INFO]: <M4TEOCM> vamos primero por comida ve
+[22:07:18] [Server thread/INFO]: <Ethan12> ya tengo
+[22:07:28] [Server thread/INFO]: <M4TEOCM> yono
+[22:09:01] [Server thread/INFO]: <Ethan12> ven mateo
+[22:09:30] [Server thread/INFO]: <M4TEOCM> estoy buscandocomida
+[22:09:48] [Server thread/INFO]: <Ethan12> te espero para entrar a la cueva mueve
+[22:10:30] [Server thread/INFO]: <Ethan12> mueve
+[22:11:34] [Server thread/INFO]: <Ethan12> mueve mateoooooooooo
+[22:11:44] [Server thread/INFO]: <M4TEOCM> dale nomas yo ya voy
+[22:11:53] [Server thread/INFO]: <Ethan12> te esperto
+[22:13:33] [Server thread/INFO]: [M4TEOCM: Teleported M4TEOCM to Ethan12]
+[22:20:51] [Server thread/INFO]: <edison235678> devuelvan mi mesa de encatamientos
+[22:20:56] [Server thread/INFO]: <M4TEOCM> el bravo
+[22:21:54] [Server thread/INFO]: [edison235678: Teleported edison235678 to DERIK]
+[22:23:06] [Server thread/INFO]: [M4TEOCM: Teleported M4TEOCM to Ethan12]
+[22:25:56] [Server thread/INFO]: [M4TEOCM: Teleported M4TEOCM to Ethan12]
+[22:26:50] [Server thread/INFO]: <M4TEOCM> no hay ni vrg
+[22:30:46] [Server thread/INFO]: [M4TEOCM: Teleported M4TEOCM to Ethan12]
+[22:32:55] [Server thread/INFO]: [M4TEOCM: Teleported M4TEOCM to Ethan12]
+[22:33:13] [Server thread/INFO]: [edison235678: Teleported edison235678 to Ethan12]
+[22:38:02] [Server thread/INFO]: [edison235678: Teleported edison235678 to Ethan12]
+[22:38:56] [Server thread/INFO]: [edison235678: Teleported edison235678 to DERIK]
+[22:39:06] [Server thread/INFO]: [M4TEOCM: Teleported M4TEOCM to Ethan12]
+[22:41:18] [Server thread/INFO]: Ethan12 was burnt to a crisp whilst fighting M4TEOCM
+[22:41:26] [Server thread/INFO]: [Ethan12: Teleported Ethan12 to M4TEOCM]
+[22:41:34] [Server thread/INFO]: [M4TEOCM: Teleported M4TEOCM to edison235678]
+[22:42:24] [Server thread/INFO]: [Ethan12: Teleported Ethan12 to edison235678]
+[22:44:44] [Server thread/INFO]: <M4TEOCM> hdp onete ala llamada animal
+[22:45:11] [Server thread/WARN]: Fetching packet for removed entity class_1542['String'/136083, l='ServerLevel[world]', x=-1828.05, y=57.00, z=211.58]
+[22:45:17] [Server thread/WARN]: Fetching packet for removed entity class_1542['String'/136139, l='ServerLevel[world]', x=-1827.25, y=57.04, z=213.09]
+[22:47:14] [Server thread/INFO]: Ethan12 lost connection: Disconnected
+[22:47:14] [Server thread/INFO]: Ethan12 left the game
+[22:50:26] [Server thread/INFO]: [edison235678: Teleported edison235678 to M4TEOCM]
+[22:56:05] [Server thread/INFO]: <edison235678> CHAO
+[22:56:06] [Server thread/INFO]: edison235678 lost connection: Disconnected
+[22:56:06] [Server thread/INFO]: edison235678 left the game
+[22:56:53] [Server thread/INFO]: [M4TEOCM: Teleported M4TEOCM to DERIK]
+[22:57:05] [Server thread/INFO]: M4TEOCM lost connection: Disconnected
+[22:57:05] [Server thread/INFO]: M4TEOCM left the game
+[23:00:52] [Server thread/INFO]: Ethan12[/10.214.214.143:54978] logged in with entity id 145845 at (-1780.6276051380116, 66.9375, 281.5016898049615)
+[23:00:52] [Server thread/INFO]: Ethan12 joined the game
+[23:01:25] [Server thread/INFO]: [Ethan12: Teleported Ethan12 to DERIK]
+[23:03:21] [Server thread/INFO]: <Ethan12> ya te vaz DERIK
+[23:03:32] [Server thread/INFO]: <DERIK> NO
+[23:03:36] [Server thread/INFO]: <DERIK> AJAJAJAJA
+[23:03:36] [Server thread/INFO]: <Ethan12> a yaya
+[23:03:41] [Server thread/INFO]: <DERIK> TU?
+[23:04:06] [Server thread/INFO]: <Ethan12> voy acabar de hacer algo en la casa y hay me voy y me uno alas 12
+[23:06:41] [Server thread/INFO]: <Ethan12> ya me voy mija pilas :<
+[23:06:57] [Server thread/INFO]: Ethan12 lost connection: Disconnected
+[23:06:57] [Server thread/INFO]: Ethan12 left the game
+[23:15:01] [Server thread/INFO]: DERIK fell from a high place
